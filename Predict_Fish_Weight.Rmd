@@ -87,6 +87,12 @@ This shows the Height and Width variables to be the best models. This also shows
 
 ### Best Models
 
+```{r}
+which.max(summary.out$adjr2)
+```
+This shows that the model 2 is the best to express the data when looking at the adjusted R-squared value.
+
+
 ### Best Two regressor model
 
 
