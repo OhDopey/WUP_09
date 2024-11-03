@@ -164,3 +164,6 @@ This shows that the best model is the one with 2 variables based off of the leap
 Leaps has shown the model with the highest adjusted r-squared value has two variables which are L3 and W. So the best 2 regressor model is the one that includes L3 and W.
 
 ## Final Summary Statements
+
+Using leaps we were able to target the adjusted r-squared value and find the best model for a combination of variables from combinations of 1 to 5, 5 being the max for our fish data. This allowed for easy comparisons to find the best regression models.
+
