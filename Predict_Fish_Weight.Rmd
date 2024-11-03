@@ -123,6 +123,13 @@ The best model appears to be model 5 including all L1, L2, L3, H, and W. variabl
 
 ### Best Models
 
+```{r}
+which.max(summary.out$adjr2)
+```
+
+The model using all 5 variables is the best model.
+
+
 ### Best Two regressor model
 
 ## Roach
