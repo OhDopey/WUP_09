@@ -46,6 +46,22 @@ Whitefish <- filter(fish, Species == "Whitefish")
 Whitefish <- select(Whitefish, -Species) 
 ```
 
+Lepas 3 times for each fish.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+require(tidyverse)
+if(!require("Bolstad")) {install.packages("Bolstad");require("Bolstad")}
+
+data(bears)
+Bears <- select(bears,contains("e"),-Name)
+#Clean missing values out of dataset (needed to run Anova at end of demo)
+Bears<- na.omit(Bears)
+```
+
 # For each of the three species of fish listed below, determine the best regression model and also the best 2 element regression model. Use the BestSubset Regression helper file.
 
 
